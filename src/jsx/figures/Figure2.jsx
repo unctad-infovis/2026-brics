@@ -154,10 +154,10 @@ const ForceNetwork = forwardRef(({ value, dimensions }, ref) => {
       .domain(extent(allEdgeValues))
       .range([2, 30]);
 
-    const opacityScale = scaleSymlog()
-      .constant(1)
+    const opacityScale = scalePow()
+      .exponent(4) // stronger effect
       .domain(extent(allEdgeValues))
-      .range([0.7, 0.7]);
+      .range([0.3, 0.7]);
 
     // Use <g> groups to contain curve + arrow
     const linkPairs = {};
@@ -212,7 +212,7 @@ const ForceNetwork = forwardRef(({ value, dimensions }, ref) => {
     linkUpdate.select('.arrow')
       .transition()
       .duration(300)
-      .attr('opacity', d => Math.max(0.03, opacityScale(d.value)));
+      .attr('opacity', 1);
 
     // Remove old links
     linkSel.exit()
