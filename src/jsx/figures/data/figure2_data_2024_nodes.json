@@ -1,0 +1,12 @@
+[
+  {"id":"Brazil", "value": 118564153, "status": "active"},
+  {"id":"China", "value": 500785006, "status": "active"},
+  {"id":"Russia", "value": 148183198, "status": "active"},
+  {"id":"India", "value": 81736240, "status": "active"},
+  {"id":"South Africa", "value": 20967892, "status": "active"},
+  {"id":"Indonesia", "value": 88763456, "status": "active"},
+  {"id":"United Arab Emirates", "value": 176328766, "status": "active"},
+  {"id":"Iran", "value": 28488823, "status": "active"},
+  {"id":"Egypt", "value": 5766941, "status": "active"},
+  {"id":"Ethiopia", "value": 879352, "status": "active"}
+]
