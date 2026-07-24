@@ -6,6 +6,8 @@
 
 A network chart showing how trade between BRICS countries has grown since 2003. Two force-directed graphs (2003 and 2024) plot intra-BRICS export flows, with node size scaled to each country's total exports to other BRICS members and edge thickness scaled to bilateral export values.
 
+Used in [Two decades of intra-BRICS trade: Trends, patterns and policies](https://unctad.org/publication/two-decades-intra-brics-trade-trends-patterns-and-policies).
+
 ## Embedding
 
 ```html
