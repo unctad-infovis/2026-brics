@@ -1,0 +1,20 @@
+#app-root-2026-brics .app {
+  .brics_meta {
+    margin: 20px 0 0;
+  }
+  .brics_meta_row {
+    font-size: var(--un-font-size-xxs);
+    color: var(--un-color-grey-text);
+    line-height: var(--un-line-height-normal);
+    & + .brics_meta_row {
+      margin-top: 5px;
+    }
+  }
+  a {
+    color: var(--un-color-grey-text);
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

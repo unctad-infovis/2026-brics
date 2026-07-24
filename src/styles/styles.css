@@ -1,0 +1,25 @@
+#app-root-2026-brics .app {
+  box-sizing: border-box;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  margin: auto auto;
+  max-width: 700px;
+  .figure_container {
+    background-color: #f2f8fc;
+    border-bottom: 6px solid var(--un-color-blue);
+    margin: 40px auto;
+    padding: 20px;
+    .svg_container {
+      font-family: Inter, Helvetica, Arial, sans-serif;
+      overflow: scroll;
+      svg {
+        max-width: 100%;
+        min-width: 600px;
+        .nodelabel {
+          fill: #000;
+          font-size: 14px;
+          pointer-events: none;
+        }
+      }
+    }
+  }
+}
