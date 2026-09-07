@@ -59,10 +59,15 @@ Single mount point, mounted in `src/jsx/Index.jsx`:
 
 The following packages are used in this project by default.
 
+### Shared UNCTAD packages
+
+* **@unctad-infovis/general-tools** — shared React components (`ButtonAnchor`, `ButtonShare`, `ChartDataWrapper`, `Image`, `ProgressBar`, `Quote`, `Select`, `Tooltip`, `UNCTADSiteHeader`, `BackToTop`, …), helpers (`BasePath`, `LoadFile`, `CsvToJson`, `FormatNr`, `RoundNr`, `UseIsVisible`, …) and base design-token styles
+
+These packages are published from the [`un-init-project`](https://github.com/unctad-infovis/un-init-project) monorepo to GitHub Packages, so installing needs an `.npmrc` with `@unctad-infovis:registry=https://npm.pkg.github.com` and a `GITHUB_PACKAGES_TOKEN` environment variable.
+
 ### Project specific
 
 * **d3** — force simulation and rendering for the network charts
-* **@unctad-infovis/general-tools** — shared `UseIsVisible` hook and base design-token styles (`colors.css`/`basics.css`)
 
 ### Build & Dev Server
 
